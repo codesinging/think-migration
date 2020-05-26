@@ -1,0 +1,21 @@
+{
+    "name": "codesinging/think-migration",
+    "description": "A database migration package based on PHinx for ThinkPHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "codesinging",
+            "email": "codesinging@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.1",
+        "robmorgan/phinx": "^0.11.7",
+        "topthink/framework": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeSinging\\ThinkMigration\\": "src"
+        }
+    }
+}
